@@ -4,34 +4,41 @@ body {
     padding: 20px;
 }
 
+
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.lista-filmes {
-    list-style: none;
-    padding: 5;
-}
-
-.lista-filmes li {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    background-color: #f5f5f5;
-}
-
-h1 {
     font-family: "Courier New", monospace;
     font-size: 4em;
     font-weight: normal;
     text-align: center;
-    color: rgb(5, 59, 236); /* Cor vermelha */
+    color: rgb(17, 45, 87); /* Cor vermelha */
     text-transform: uppercase; /* Maiúsculas */
     background-color: #fff; /* Cor de fundo */
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 10px; /* Arredondar cantos */
     margin-bottom: 40px;
+}
+
+.lista-filmes li{
+    list-style: none;
+    padding: 20;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #67f82d;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+
+.lista-musicas li {
+    list-style: none;
+    padding: 20;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #67f82d;
+    border-radius: 10px;
+    background-color: #f5f5f5;
 }
